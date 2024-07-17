@@ -1,0 +1,105 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-toggle {
+  background-color: #000;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  z-index: 500;
+}
+
+.menu {
+  width: 100vw;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: absolute;
+  margin: auto;
+  background-color: #f0f0f0;
+  padding: 2rem;
+  top: 0;
+}
+
+.menu ol {
+  counter-reset: menu;
+  width: 40%;
+  margin: auto;
+}
+
+.menu:hover > ol > .menu-item {
+  opacity: 0.3;
+}
+
+.menu-item a {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  padding: 0.3rem 0;
+  order: 0;
+}
+
+.menu-item a::before {
+  content: "";
+  display: block;
+  border-bottom: 1px dotted #000;
+  position: relative;
+  top: -3px;
+  flex: 1 1 auto;
+  margin: 0 1rem;
+  order: 1;
+}
+
+.menu-item a::after {
+  counter-increment: menu;
+  content: counters(menu, ".");
+  flex: 0 0 auto;
+  order: 2;
+  transform: scale(1.2);
+  text-decoration: underline;
+}
+
+.menu-item:hover {
+  transition: background-color 0.3s;
+  opacity: 1 !important;
+}
+
+.menu-item:hover a::after {
+  text-decoration: none;
+}
+
+.menu-item:hover > a::before {
+  transition: flex-grow 0.3s;
+  width: 0;
+  flex-grow: 0;
+  transform-origin: center bottom;
+}
+
+.sub-menu > li > a {
+  text-indent: 0ch;
+  padding: 0.5rem 0 0.5rem 2ch;
+  margin: 0;
+}
+
+.sub-menu {
+  padding: 1rem;
+  width: 100% !important;
+}
+
+@media (max-width: 920px) {
+  .menu ol {
+    width: 90%;
+  }
+}
