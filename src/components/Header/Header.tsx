@@ -20,7 +20,7 @@ const Header: React.FC = () => {
         <nav className="menu">
           <ol>
             {menu.map((menuItem) => (
-              <li className="menu-item">
+              <li key={menuItem.id} className="menu-item">
                 <Link
                   to={menuItem.path}
                   onClick={() => setIsOpen((prev) => !prev)}
@@ -30,7 +30,7 @@ const Header: React.FC = () => {
                 {menuItem.subMenu.length > 0 && (
                   <ol className="sub-menu">
                     {menuItem.subMenu.map((subMenuItem) => (
-                      <li className="menu-item">
+                      <li key={subMenuItem.id} className="menu-item">
                         <Link
                           to={subMenuItem.path}
                           onClick={() => setIsOpen((prev) => !prev)}

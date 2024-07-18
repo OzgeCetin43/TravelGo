@@ -1,0 +1,95 @@
+.tab-container {
+  width: 920px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem auto;
+}
+
+.tab-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.tab-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.75rem;
+  margin: 4rem auto;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.tab-list-item.active {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.25rem;
+}
+
+.tab-form {
+  display: flex;
+  gap: 1rem;
+  background-color: #f0f0f0;
+  border: 1px solid #000;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.tab-form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tab-form-item label {
+  font-size: 1.25rem;
+}
+
+.tab-form-item select,
+.tab-form-item input {
+  outline: none;
+  padding: 1rem;
+}
+
+.tab-form-button {
+  width: 100px;
+  height: 3rem;
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  position: relative;
+  top: 2rem;
+}
+
+@media (max-width: 920px) {
+  .tab-list {
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+
+  .tab-list-item {
+    margin: 1rem;
+    width: 100%;
+  }
+
+  .tab-form {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .tab-form-button {
+    top: 0;
+    width: 100%;
+  }
+}
