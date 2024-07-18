@@ -22,15 +22,16 @@
   justify-content: center;
   gap: 1rem;
   font-size: 1.75rem;
-  margin: 4rem auto;
   cursor: pointer;
   padding: 0.5rem;
+  margin-top: 4rem;
 }
 
 .tab-list-item.active {
   background-color: #000;
   color: #fff;
-  border-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 
 .tab-form {
