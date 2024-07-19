@@ -6,6 +6,7 @@ import Map from "../../components/Map/Map";
 import Sponsor from "../../components/Sponsor/Sponsor";
 import Services from "../../components/Services/Services";
 import WhyUs from "../../components/WhyUs/WhyUs";
+import WhyUsDetail from "../../components/WhyUsDetail/WhyUsDetail";
 
 const Home: React.FC = () => (
   <>
@@ -15,6 +16,7 @@ const Home: React.FC = () => (
     <Sponsor />
     <Services />
     <WhyUs />
+    <WhyUsDetail />
   </>
 );
 
