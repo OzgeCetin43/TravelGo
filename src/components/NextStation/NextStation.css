@@ -1,0 +1,78 @@
+.next-station-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 920px;
+  max-width: 90%;
+  margin: 4rem auto;
+  gap: 2rem;
+}
+
+.next-station-container-left,
+.next-station-container-right {
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.next-station-title {
+  font-size: 3rem;
+}
+
+.next-station-description {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.next-station-list {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.next-station-list-item {
+  font-size: 1rem;
+  line-height: 2;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.next-station-list-item::before {
+  content: "";
+  background-color: #000;
+  color: #fff;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.15rem;
+}
+
+.check-in-flight-button {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 920px) {
+  .next-station-container {
+    flex-direction: column;
+  }
+
+  .next-station-container-left,
+  .next-station-container-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .next-station-list-item {
+    text-align: left;
+  }
+}
