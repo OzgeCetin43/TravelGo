@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import hero from "../../assets/images/next-station-hero.png";
 
@@ -28,7 +29,9 @@ const NextStation: React.FC = () => {
             cars, and other transportation modes, all in one place.
           </li>
         </ul>
-        <button className="check-in-flight-button">Check In Flight</button>
+        <Link className="check-in-flight-button" to="/flights">
+          Check In Flight
+        </Link>
       </div>
     </div>
   );

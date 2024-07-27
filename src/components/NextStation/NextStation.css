@@ -59,6 +59,8 @@
   border-radius: 0.25rem;
   outline: none;
   border: none;
+  text-align: center;
+  font-size: 1.25rem;
 }
 
 @media (max-width: 920px) {
