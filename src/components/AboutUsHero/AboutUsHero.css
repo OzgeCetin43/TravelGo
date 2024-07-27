@@ -1,0 +1,136 @@
+.about-us-hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 920px;
+  max-width: 90%;
+  margin: auto;
+  gap: 2rem;
+}
+
+.about-us-hero-container-left,
+.about-us-hero-container-right {
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-us-hero-title {
+  font-size: 3rem;
+}
+
+.about-us-hero-description {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.about-us-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #f0f0f0;
+  padding: 0.5rem 1rem;
+  width: 125%;
+  position: relative;
+  z-index: 1;
+  border-radius: 0.25rem;
+  border: 1px solid #000;
+}
+
+.about-us-form-item label {
+  font-size: 1rem;
+}
+
+.about-us-form-item select,
+.about-us-form-item input {
+  width: 100%;
+  border: 1px solid #000;
+  padding: 0.5rem;
+  outline: none;
+  border-radius: 0.25rem;
+}
+
+.about-us-search-button {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  position: relative;
+  top: 1.5rem;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us-hero-social-media-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.about-us-hero-social-media-container svg {
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.25rem;
+}
+
+.about-us-hero-image-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.about-us-hero-image-container img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.about-us-hero-image-container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (max-width: 920px) {
+  .about-us-hero-container {
+    flex-direction: column-reverse;
+    margin-top: 5rem;
+  }
+
+  .about-us-hero-container-left,
+  .about-us-hero-container-right {
+    width: 100%;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  .about-us-form {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .about-us-form-item {
+    width: 100%;
+  }
+
+  .about-us-search-button {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    height: auto;
+  }
+}
