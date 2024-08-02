@@ -3,8 +3,9 @@ import { FaQuestion, FaPlay } from "react-icons/fa";
 
 import hero from "../../assets/images/why-choose-us-hero.png";
 
-import "./WhyChooseUs.css";
 import { whyChooseUs } from "../../assets/data/why-choose-us";
+
+import "./WhyChooseUs.css";
 
 const WhyChooseUs: React.FC = () => {
   return (

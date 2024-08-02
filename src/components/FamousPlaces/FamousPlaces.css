@@ -1,0 +1,98 @@
+.famous-places-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 920px;
+  max-width: 90%;
+  margin: 2rem auto;
+  gap: 2rem;
+}
+
+.famous-places-subtitle {
+  font-size: 1rem;
+}
+
+.famous-places-title {
+  font-size: 3rem;
+}
+
+.famous-places-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  margin: auto;
+}
+
+.famous-places-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 30%;
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.famous-places-list-item img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.famous-place-star-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.famous-place-star-container small {
+  font-size: 1.25rem;
+}
+
+.famous-places-list-item h1 {
+  font-size: 3rem;
+}
+
+.famous-place-per-person-text {
+  font-size: 1.25rem;
+}
+
+.famous-place-per-person-text span {
+  color: orange;
+}
+
+.famous-place-detail-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.famous-place-detail-container span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.famous-place-detail-container svg,
+.famous-place-detail-container span {
+  font-size: 1rem;
+}
+
+@media (max-width: 920px) {
+  .famous-places-container {
+    align-items: center;
+  }
+
+  .famous-places-list {
+    flex-direction: column;
+  }
+
+  .famous-places-list-item {
+    width: 100%;
+  }
+}
