@@ -5,6 +5,7 @@ import AboutUsInfo from "../../components/AboutUsInfo/AboutUsInfo";
 import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs";
 import FamousPlaces from "../../components/FamousPlaces/FamousPlaces";
 import Experience from "../../components/Experience/Experience";
+import Testimonials from "../../components/Testimonials/Testimonials";
 
 const AboutUs: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const AboutUs: React.FC = () => {
       <WhyChooseUs />
       <FamousPlaces />
       <Experience />
+      <Testimonials />
     </>
   );
 };
