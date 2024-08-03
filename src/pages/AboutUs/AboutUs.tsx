@@ -6,6 +6,8 @@ import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs";
 import FamousPlaces from "../../components/FamousPlaces/FamousPlaces";
 import Experience from "../../components/Experience/Experience";
 import Testimonials from "../../components/Testimonials/Testimonials";
+import Sponsor from "../../components/Sponsor/Sponsor";
+import Subscribe from "../../components/Subscribe/Subscribe";
 
 const AboutUs: React.FC = () => {
   return (
@@ -16,6 +18,8 @@ const AboutUs: React.FC = () => {
       <FamousPlaces />
       <Experience />
       <Testimonials />
+      <Sponsor />
+      <Subscribe />
     </>
   );
 };
