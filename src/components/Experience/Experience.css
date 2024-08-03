@@ -1,0 +1,109 @@
+.experience-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 920px;
+  max-width: 90%;
+  margin: 2rem auto;
+  gap: 2rem;
+}
+
+.experience-container-left,
+.experience-container-right {
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.experience-subtitle {
+  font-size: 1rem;
+}
+
+.experience-title {
+  font-size: 3rem;
+}
+
+.experience-description {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.experience-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.experience-list-item h2 {
+  font-size: 1.5rem;
+}
+
+.experience-list-item p {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.experience-container-right {
+  position: relative;
+}
+
+.experience-emoji-chooser {
+  position: absolute;
+  bottom: 0;
+  left: -1rem;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.experience-emoji-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.experience-emoji-chooser p {
+  font-size: 1rem;
+  color: orange;
+}
+
+@media (max-width: 920px) {
+  .experience-container {
+    flex-direction: column-reverse;
+  }
+
+  .experience-container-left,
+  .experience-container-right {
+    width: 100%;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  .experience-emoji-chooser {
+    position: absolute;
+    left: 0;
+    bottom: 2.5rem;
+    transform: translateX(20%);
+  }
+}
