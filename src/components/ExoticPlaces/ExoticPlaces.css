@@ -1,0 +1,74 @@
+.exotic-places-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 920px;
+  max-width: 90%;
+  margin: 6rem auto 2rem;
+  gap: 2rem;
+}
+
+.exotic-places-subtitle {
+  font-size: 1rem;
+}
+
+.exotic-places-title {
+  font-size: 3rem;
+}
+
+.exotic-places-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.25rem;
+}
+
+.exotic-place-item {
+  position: relative;
+}
+
+.exotic-place-item:first-child,
+.exotic-place-item:nth-child(3) {
+  width: 24.5%;
+}
+
+.exotic-place-item:nth-child(2),
+.exotic-place-item:nth-child(4),
+.exotic-place-item:nth-child(5) {
+  width: 49.5%;
+}
+
+.exotic-place-item img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.exotic-place-detail {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: #fff;
+}
+
+.exotic-place-detail small {
+  font-size: 1rem;
+  color: orange;
+}
+
+.exotic-place-detail h1 {
+  font-size: 3rem;
+}
+
+@media (max-width: 920px) {
+  .exotic-places-container {
+    margin: 2rem auto;
+  }
+
+  .exotic-place-item {
+    width: 100% !important;
+  }
+}
