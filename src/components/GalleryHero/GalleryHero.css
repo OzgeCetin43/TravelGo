@@ -1,0 +1,78 @@
+.gallery-hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 920px;
+  max-width: 90%;
+  margin: 4rem auto 5rem;
+  gap: 2rem;
+  height: 90vh;
+  background-image: url("../../assets/images/gallery-hero.jpg");
+  background-color: rgba(255, 255, 255, 0.486);
+  background-blend-mode: overlay;
+  position: relative;
+}
+
+.gallery-hero-container h1 {
+  font-size: 3rem;
+}
+
+.gallery-hero-container p {
+  font-size: 1.5rem;
+}
+
+.gallery-form {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  display: flex;
+  gap: 1rem;
+  background-color: #f0f0f0;
+  border: 1px solid #000;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.gallery-form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.gallery-form-item label {
+  font-size: 1.25rem;
+}
+
+.gallery-form-item select,
+.gallery-form-item input {
+  outline: none;
+  padding: 1rem;
+}
+
+.gallery-form-button {
+  width: 100px;
+  height: 3rem;
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  position: relative;
+  top: 2rem;
+}
+
+@media (max-width: 920px) {
+  .gallery-form {
+    position: relative;
+    flex-direction: column;
+    width: 90%;
+    margin-top: -3rem;
+  }
+
+  .gallery-form-button {
+    top: 0;
+    width: 100%;
+  }
+}
