@@ -5,5 +5,5 @@ Home Page
 About Us Page
 ![screencapture-localhost-5173-about-us-2024-08-03-21_44_21](https://github.com/user-attachments/assets/cff46a44-4398-4d7c-a899-062b33261d69)
 Gallery Page
-![screencapture-localhost-5173-gallery-2024-08-09-13_03_12](https://github.com/user-attachments/assets/e5f063e1-069f-433b-b913-c45c02aae0ce)
+![screencapture-localhost-5173-gallery-2024-08-09-13_55_19](https://github.com/user-attachments/assets/bed125d7-e2f5-49c2-9c5d-d39945203654)
 
