@@ -1,0 +1,88 @@
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 920px;
+  max-width: 90%;
+  margin: 4rem auto;
+  gap: 2rem;
+  background-image: url("../../assets/images/banner-bg.jpg");
+  background-color: rgba(0, 0, 0, 0.25);
+  background-position: center;
+  background-blend-mode: overlay;
+  color: #fff;
+}
+
+.banner-container-left,
+.banner-container-right {
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.banner-play-button {
+  padding: 1rem;
+  font-size: 5rem;
+  color: orange;
+  border: 1px solid #fff;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.banner-subtitle {
+  font-size: 1rem;
+}
+
+.banner-title {
+  font-size: 3rem;
+}
+
+.banner-tour-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.banner-tour-list-item {
+  width: 40%;
+  border: 1px solid #fff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.banner-tour-list-item svg {
+  color: orange;
+}
+
+.banner-tour-list-item h1 {
+  font-size: 1.5rem;
+}
+
+.banner-tour-list-item small {
+  font-size: 1rem;
+  color: orange;
+}
+
+@media (max-width: 920px) {
+  .banner-container {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  .banner-container-left,
+  .banner-container-right {
+    width: 100%;
+    text-align: center;
+    gap: 3rem;
+  }
+}
