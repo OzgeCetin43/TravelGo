@@ -6,4 +6,5 @@ About Us Page
 ![screencapture-localhost-5173-about-us-2024-08-03-21_44_21](https://github.com/user-attachments/assets/cff46a44-4398-4d7c-a899-062b33261d69)
 Gallery Page
 ![screencapture-localhost-5173-gallery-2024-08-13-18_14_00](https://github.com/user-attachments/assets/9a9c7e21-346a-440b-88b8-fc301e607b1e)
-
+Flights Page
+![screencapture-localhost-5173-flights-2024-08-13-19_07_16](https://github.com/user-attachments/assets/7a465ae6-9ab1-41ff-b9f3-ab1918030a14)
