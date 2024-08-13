@@ -35,6 +35,7 @@
 .left-form-item input,
 .left-form-item select {
   padding: 0.5rem;
+  outline: none;
 }
 
 .search-flight-container-right {
@@ -60,6 +61,7 @@
 .right-form-item select {
   width: 100%;
   padding: 0.5rem;
+  outline: none;
 }
 
 .flights-container {

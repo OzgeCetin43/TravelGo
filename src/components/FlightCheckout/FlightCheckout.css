@@ -1,0 +1,143 @@
+.flight-checkout-title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.flight-checkout-description {
+  font-size: 1.25rem;
+  text-align: center;
+  display: block;
+  margin-top: 1rem;
+}
+
+.flight-checkout-container {
+  display: flex;
+  justify-content: center;
+  width: 920px;
+  max-width: 90%;
+  margin: 4rem auto;
+  gap: 2rem;
+}
+
+.flight-checkout-container-left,
+.flight-checkout-container-right {
+  flex: 1;
+}
+
+.flight-checkout-container-left h3,
+.flight-checout-container-right h3 {
+  font-size: 2rem;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
+.flight-checkout-form,
+.flight-checkout-credit-card-form,
+.flight-checkout-billing-address-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.flight-checkout-form-item,
+.flight-checkout-credit-card-form-item,
+.flight-checkout-billing-address-form-item {
+  display: flex;
+  gap: 1rem;
+}
+
+.flight-checkout-form-item label,
+.flight-checkout-credit-card-form-item label,
+.flight-checkout-billing-address-form-item label {
+  font-size: 1rem;
+  width: 35%;
+}
+
+.flight-checkout-form-item input,
+.flight-checkout-credit-card-form-item input,
+.flight-checkout-billing-address-form-item input,
+.flight-checkout-billing-address-form-item textarea {
+  padding: 0.5rem;
+  width: 65%;
+  outline: none;
+}
+
+.flight-checkout-credit-card-form-item select {
+  width: 30.5%;
+  padding: 0.5rem;
+}
+
+.flight-checkout-billing-address-form-item textarea {
+  resize: none;
+}
+
+.flight-checkout-summary-container {
+  margin: 1rem 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.flight-checkout-summary-container p,
+.flight-checkout-charges-container p {
+  font-size: 1.5rem;
+  width: 65%;
+}
+
+.flight-checkout-summary-container div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 65%;
+}
+
+.flight-checkout-summary-container div h4 {
+  color: orange;
+  font-size: 2rem;
+}
+
+.flight-checkout-summary-container div small {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.flight-checkout-summary-container div ul li {
+  list-style-position: inside;
+  font-size: 1.25rem;
+  margin: 1rem;
+}
+
+.flight-checkout-charges-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flight-checkout-charges-container h4 {
+  width: 65%;
+  font-size: 2rem;
+}
+
+.flight-checkout-booking-button {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  width: 100%;
+  margin: 1rem 0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 920px) {
+  .flight-checkout-container {
+    flex-direction: column;
+  }
+
+  .flight-checkout-container-left,
+  .flight-checkout-container-right {
+    width: 100%;
+  }
+}
