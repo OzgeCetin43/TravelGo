@@ -8,3 +8,5 @@ Gallery Page
 ![screencapture-localhost-5173-gallery-2024-08-13-18_14_00](https://github.com/user-attachments/assets/9a9c7e21-346a-440b-88b8-fc301e607b1e)
 Flights Page
 ![screencapture-localhost-5173-flights-2024-08-13-23_33_16 (1)](https://github.com/user-attachments/assets/bb0332f5-de7e-403c-90b6-9b19e92b68a1)
+Hotels Page
+![screencapture-localhost-5173-hotels-2024-08-14-22_47_15](https://github.com/user-attachments/assets/dfabf375-46d3-40e8-a230-bf3aae59f39c)
