@@ -3,6 +3,7 @@ import React from "react";
 import SearchHotel from "../../components/SearchHotel/SearchHotel";
 import ExoticPlaces from "../../components/ExoticPlaces/ExoticPlaces";
 import Sponsor from "../../components/Sponsor/Sponsor";
+import BookingHotel from "../../components/BookingHotel/BookingHotel";
 
 const Hotels: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const Hotels: React.FC = () => {
       <SearchHotel />
       <ExoticPlaces />
       <Sponsor />
+      <BookingHotel />
     </>
   );
 };

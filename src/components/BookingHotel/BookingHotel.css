@@ -1,0 +1,220 @@
+.booking-hotel-container {
+  width: 920px;
+  max-width: 90%;
+  margin: 4rem auto;
+}
+
+.booking-hotel-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.booking-hotel-top h1 {
+  font-size: 3rem;
+}
+
+.booking-hotel-detail {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.booking-hotel-location {
+  color: orange;
+}
+
+.booking-hotel-star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.booking-hotel-review,
+.booking-hotel-star {
+  font-size: 1.5rem;
+  color: #999;
+}
+
+.booking-hotel-address {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.25rem;
+}
+
+.booking-hotel-top img {
+  border-radius: 0.25rem;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.booking-hotel-detail-container {
+  display: flex;
+  align-items: stretch;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.booking-hotel-detail-container-left,
+.booking-hotel-detail-container-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.booking-hotel-detail-container-left h3 {
+  font-size: 2rem;
+}
+
+.booking-hotel-detail-container-left p,
+.booking-hotel-facilities-list li h4 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.booking-hotel-facilities-list {
+  list-style: none;
+}
+
+.booking-hotel-facilities-list li svg {
+  padding: 1rem;
+  font-size: 5rem;
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+}
+
+.booking-hotel-facilities-list li p {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.booking-hotel-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+}
+
+.booking-hotel-form-top {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: orange;
+  color: #fff;
+  text-align: center;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.booking-hotel-form-item {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.booking-hotel-form-item label {
+  width: 45%;
+  font-size: 1.5rem;
+}
+
+.booking-hotel-form-item input {
+  width: 55%;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.booking-hotel-form h5 {
+  padding: 1rem;
+}
+
+.booking-hotel-button {
+  background-color: orange;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.booking-hotel-help-container {
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.booking-hotel-help-container small {
+  font-size: 1rem;
+}
+
+.booking-hotel-help-container h2,
+.property-highlights-container h2 {
+  font-size: 3rem;
+}
+
+.booking-hotel-help-container p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.booking-hotel-help-container b {
+  font-size: 2rem;
+}
+
+.property-highlights-container {
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+}
+
+.property-highlights-list {
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.property-highlights-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 920px) {
+  .booking-hotel-detail-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .booking-hotel-form h5 {
+    text-align: left;
+  }
+
+  .booking-hotel-form-item {
+    flex-direction: column;
+    text-align: left;
+    gap: 1rem;
+  }
+
+  .booking-hotel-form-item label,
+  .booking-hotel-form-item input {
+    width: 100%;
+  }
+}
