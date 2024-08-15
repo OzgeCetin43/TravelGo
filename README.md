@@ -9,4 +9,4 @@ Gallery Page
 Flights Page
 ![screencapture-localhost-5173-flights-2024-08-13-23_33_16 (1)](https://github.com/user-attachments/assets/bb0332f5-de7e-403c-90b6-9b19e92b68a1)
 Hotels Page
-![screencapture-localhost-5173-hotels-2024-08-15-21_55_24](https://github.com/user-attachments/assets/8258bfe1-e021-43df-85fc-4c3262e14e38)
+![screencapture-localhost-5173-hotels-2024-08-15-22_07_46](https://github.com/user-attachments/assets/17c1b0af-7450-41a6-88ad-86f47451a835)
