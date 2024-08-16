@@ -1,0 +1,163 @@
+.search-car-container {
+  display: flex;
+  align-items: stretch;
+  width: 920px;
+  max-width: 90%;
+  margin: 4rem auto;
+  gap: 2rem;
+}
+
+.search-car-container-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.search-car-container-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 0.25rem;
+}
+
+.search-car-container-form-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.search-car-container-form-item label {
+  font-size: 1.5rem;
+}
+
+.search-car-container-form-item input {
+  outline: none;
+  padding: 0.5rem;
+}
+
+.search-car-button {
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.search-car-category-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+}
+
+.search-car-category-container h4 {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.search-car-category-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.search-car-category-form input {
+  margin-right: 1rem;
+}
+
+.search-car-category-form label {
+  font-size: 1rem;
+}
+
+.search-car-container-right {
+  flex: 3;
+  margin: 0 2rem;
+}
+
+.search-car-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-car-list li {
+  width: 30%;
+  border: 1px solid #000;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.search-car-list li img {
+  width: 75%;
+  object-fit: cover;
+}
+
+.search-car-list li h1 {
+  font-size: 1.5rem;
+}
+
+.search-car-list li small {
+  font-size: 1rem;
+}
+
+.search-car-list li p {
+  color: orange;
+  font-size: 2rem;
+}
+
+.rent-a-car-button {
+  padding: 0.75rem;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 0.95rem;
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 920px) {
+  .search-car-container {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  .search-car-container-left,
+  .search-car-container-right {
+    width: 100%;
+  }
+
+  .search-car-container-right {
+    margin: 0;
+  }
+
+  .search-car-list {
+    flex-direction: column;
+  }
+
+  .search-car-list li {
+    width: 100%;
+  }
+}

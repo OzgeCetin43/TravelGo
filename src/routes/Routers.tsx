@@ -6,6 +6,7 @@ import AboutUs from "../pages/AboutUs/AboutUs";
 import Gallery from "../pages/Gallery/Gallery";
 import Flights from "../pages/Flights/Flights";
 import Hotels from "../pages/Hotels/Hotels";
+import RentACars from "../pages/RentACars/RentACars";
 
 const Routers: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const Routers: React.FC = () => {
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/flights" element={<Flights />} />
       <Route path="/hotels" element={<Hotels />} />
+      <Route path="/rent-a-car" element={<RentACars />} />
     </Routes>
   );
 };
