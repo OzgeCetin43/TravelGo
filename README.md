@@ -16,3 +16,5 @@ Cruises Page
 ![screencapture-localhost-5173-cruises-2024-08-17-13_34_31](https://github.com/user-attachments/assets/aa3789ca-ec12-468c-a7d4-4b7d575fff27)
 Blogs Page
 ![screencapture-localhost-5173-blogs-2024-08-17-18_02_08](https://github.com/user-attachments/assets/4b2a2277-14d7-4160-9f2e-9b83ebe2e336)
+Contact Page
+![screencapture-localhost-5173-contact-2024-08-17-18_30_02](https://github.com/user-attachments/assets/2534ee90-4cba-4832-bb31-1820692c0933)
