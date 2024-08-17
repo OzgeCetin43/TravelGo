@@ -1,0 +1,89 @@
+.search-cruise-container {
+  display: flex;
+  align-items: stretch;
+  width: 920px;
+  max-width: 90%;
+  margin: 4rem auto;
+  gap: 2rem;
+}
+
+.search-cruise-container-left {
+  flex: 1;
+}
+
+.search-cruise-form {
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.search-cruise-form-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.search-cruise-form-item label {
+  font-size: 1rem;
+}
+
+.search-cruise-form-item input,
+.search-cruise-form-item select {
+  padding: 0.5rem;
+  outline: none;
+}
+
+.search-cruise-button {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+.search-cruise-container-right {
+  flex: 3;
+}
+
+.search-cruise-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+}
+
+.search-cruise-list li {
+  width: 30%;
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.search-cruise-list li img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.search-cruise-list li h1 {
+  font-size: 2.05rem;
+}
+
+.search-cruise-list li p {
+  font-size: 1.5rem;
+}
