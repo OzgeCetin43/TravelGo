@@ -14,3 +14,5 @@ Rent A Car Page
 ![screencapture-localhost-5173-rent-a-car-2024-08-17-12_01_15](https://github.com/user-attachments/assets/393f9f1c-6139-42a7-9077-bf1ac3146a95)
 Cruises Page
 ![screencapture-localhost-5173-cruises-2024-08-17-13_34_31](https://github.com/user-attachments/assets/aa3789ca-ec12-468c-a7d4-4b7d575fff27)
+Blogs Page
+![screencapture-localhost-5173-blogs-2024-08-17-18_02_08](https://github.com/user-attachments/assets/4b2a2277-14d7-4160-9f2e-9b83ebe2e336)
