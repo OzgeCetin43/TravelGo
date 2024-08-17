@@ -46,6 +46,7 @@
   border: none;
   border-radius: 0.25rem;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .search-cruise-container-right {

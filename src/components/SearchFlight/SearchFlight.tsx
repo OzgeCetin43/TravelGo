@@ -1,7 +1,8 @@
 import React from "react";
 
-import "./SearchFlight.css";
 import { flights } from "../../assets/data/flights";
+
+import "./SearchFlight.css";
 
 const SearchFlight: React.FC = () => {
   return (
