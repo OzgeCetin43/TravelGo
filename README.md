@@ -11,4 +11,4 @@ Flights Page
 Hotels Page
 ![screencapture-localhost-5173-hotels-2024-08-15-22_07_46](https://github.com/user-attachments/assets/17c1b0af-7450-41a6-88ad-86f47451a835)
 Rent A Car Page
-![screencapture-localhost-5173-rent-a-car-2024-08-17-00_48_31](https://github.com/user-attachments/assets/69bf36a8-46cf-4bd4-b67e-63741272fe48)
+![screencapture-localhost-5173-rent-a-car-2024-08-17-12_01_15](https://github.com/user-attachments/assets/393f9f1c-6139-42a7-9077-bf1ac3146a95)
