@@ -1,0 +1,209 @@
+.booking-car-container {
+  display: flex;
+  align-items: stretch;
+  width: 920px;
+  max-width: 90%;
+  margin: 4rem auto;
+  gap: 2rem;
+}
+
+.booking-car-container-left {
+  flex: 1;
+}
+
+.booking-car-form {
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.booking-car-form p {
+  font-size: 1.7rem;
+}
+
+.booking-car-form p small {
+  font-size: 1rem;
+  color: orange;
+}
+
+.booking-car-form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.booking-car-form-item label {
+  font-size: 1rem;
+}
+
+.booking-car-form-item input {
+  padding: 0.5rem;
+  outline: none;
+}
+
+.booking-car-form-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.booking-car-form-detail small {
+  font-size: 1rem;
+}
+
+.booking-car-form-detail p {
+  color: orange;
+}
+
+.booking-car-form-button {
+  padding: 1rem;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+.booking-car-container-right {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.booking-car-container-right h1 {
+  font-size: 3rem;
+}
+
+.booking-car-container-right small {
+  font-size: 1.25rem;
+}
+
+.booking-car-container-right img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.booking-car-facilities {
+  display: flex;
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.booking-car-facilities h4 {
+  background-color: #000;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.booking-car-facility-list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.booking-car-facility-list li {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.booking-car-container-right p {
+  font-size: 1.5rem;
+}
+
+.booking-car-price-includes-container h4,
+.booking-car-price-excludes-container h4 {
+  font-size: 2rem;
+}
+
+.booking-car-price-includes-list,
+.booking-car-price-excludes-list {
+  list-style-position: inside;
+}
+
+.booking-car-price-includes-list li,
+.booking-car-price-excludes-list li {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.booking-car-comment-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.booking-car-comment-form-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.booking-car-comment-form-item input {
+  width: 33%;
+  padding: 1rem;
+  outline: none;
+}
+
+.booking-car-comment-form-item textarea {
+  padding: 1rem;
+  resize: none;
+  width: 100%;
+  outline: none;
+}
+
+.booking-car-send-comment-button {
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 920px) {
+  .booking-car-container {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto 4rem;
+  }
+
+  .booking-car-container-left,
+  .booking-car-container-right {
+    flex: 1;
+  }
+
+  .booking-car-facilities,
+  .booking-car-facility-list {
+    flex-direction: column;
+  }
+
+  .booking-car-price-includes-container,
+  .booking-car-price-excludes-container {
+    text-align: left;
+  }
+
+  .booking-car-comment-form-item {
+    flex-direction: column;
+  }
+
+  .booking-car-comment-form-item input {
+    width: 100%;
+  }
+}
