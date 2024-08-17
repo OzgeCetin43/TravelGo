@@ -87,3 +87,14 @@
 .search-cruise-list li p {
   font-size: 1.5rem;
 }
+
+@media (max-width: 920px) {
+  .search-cruise-container {
+    flex-direction: column;
+  }
+
+  .search-cruise-container-left,
+  .search-cruise-container-right {
+    flex: 1;
+  }
+}
