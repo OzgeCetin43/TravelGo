@@ -9,6 +9,7 @@ import Hotels from "../pages/Hotels/Hotels";
 import RentACars from "../pages/RentACars/RentACars";
 import Cruises from "../pages/Cruises/Cruises";
 import Blogs from "../pages/Blogs/Blogs";
+import Contact from "../pages/Contact/Contact";
 
 const Routers: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const Routers: React.FC = () => {
       <Route path="/rent-a-car" element={<RentACars />} />
       <Route path="/cruises" element={<Cruises />} />
       <Route path="/blogs" element={<Blogs />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   );
 };
